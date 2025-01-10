@@ -11,7 +11,9 @@ const Mealcards = ({detail}) => {
                <div className='mealImg'>
                <img src={curItem.strMealThumb}/>
                <p>{curItem.strMeal}</p>
-               <NavLink><button>Recipe</button>
+               <NavLink to={`/${curItem.idMeal}`}>
+               <button>Recipe</button>
+
                </NavLink>
                
                </div>

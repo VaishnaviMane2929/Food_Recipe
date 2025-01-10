@@ -19,6 +19,7 @@ const Mainpage = () => {
     const jsonData = await get.json()
     // console.log(jsonData.meals);
     setData(jsonData.meals)
+    setMsg("")
 
     }
     
